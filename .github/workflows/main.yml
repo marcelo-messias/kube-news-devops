@@ -8,7 +8,7 @@ jobs:
   CI:
     runs-on: ubuntu:latest
     steps:
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
       - name: Docker Build chatservice 
         run: echo "Docker Build chatservice "
       - name: Docker Build webapp 
